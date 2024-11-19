@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="banner">
+            <h1>Welcome to Our College</h1>
+            <img src="images/banner.jpeg"College Banner">
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p><strong>Vision:</strong> To provide quality education and empower students to achieve their full potential.</p>
+        <p><strong>Mission:</strong> To nurture creativity, critical thinking, and leadership in students through innovative teaching and research.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-details">
+            <p><strong>Email:</strong> info@college.com</p>
+            <p><strong>Phone:</strong> +1-234-567-8900</p>
+            <p><strong>Address:</strong> 123 College Street, City, Country</p>
+        </div>
+    </section>
+    
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    
+    <section id="register">
+        <h2>Register</h2>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 College Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
